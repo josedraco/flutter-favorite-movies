@@ -1,0 +1,25 @@
+name: favourite_movies
+description: A new Flutter project.
+
+dependencies:
+  fluro: "^1.1.0"
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/covers/iron_man.jpg
+    - assets/covers/the_avengers.jpg
+    - assets/covers/guardians.jpg
+    - assets/covers/deadpool.jpg
+    - assets/covers/doctor_strange.jpg
+    - assets/covers/tron.jpg
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/lato/Lato-Regular.ttf
