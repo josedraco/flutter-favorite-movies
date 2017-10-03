@@ -21,10 +21,11 @@ class MovieRow extends StatelessWidget {
       ),
       child: new Hero(
         tag: 'movie-cover-${movie.id}',
-        child: new Image(
-          image: new AssetImage('assets/covers/${movie.cover}'),
-          fit: BoxFit.contain,
-          alignment: FractionalOffset.centerLeft,
+        child: new Image.network(
+            movie.coverURL,
+            fit: BoxFit.contain,
+            alignment: FractionalOffset.centerLeft,
+            repeat: ImageRepeat.noRepeat,
         ),
       ),
     );

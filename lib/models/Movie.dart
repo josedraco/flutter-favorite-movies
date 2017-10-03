@@ -4,7 +4,7 @@ class Movie {
   final String year;
   final String plot;
   final String rating;
-  final String cover;
+  final String coverURL;
   final String staring;
 
   const Movie({
@@ -13,7 +13,7 @@ class Movie {
     this.year,
     this.plot,
     this.rating,
-    this.cover,
+    this.coverURL,
     this.staring,
   });
 }

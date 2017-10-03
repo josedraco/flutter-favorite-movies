@@ -15,10 +15,12 @@ class MovieDetailBody extends StatelessWidget {
         child: new Center(
           child: new Hero(
             tag: 'movie-cover-${movie.id}',
-            child: new Image(
-              image: new AssetImage('assets/covers/${movie.cover}'),
-              height: Theme.Dimens.cardHeight * 2,
-              width: Theme.Dimens.coverWidth * 2,
+            child: new Image.network(
+              movie.coverURL,
+              fit: BoxFit.contain,
+              alignment: FractionalOffset.centerLeft,
+              repeat: ImageRepeat.noRepeat,
+              height: 500.0,
             ),
           ),
         ),
