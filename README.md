@@ -1,8 +1,10 @@
-# favourite_movies
+# flutter-favorite-movies
 
-A new Flutter project.
+A simple flutter app I made to learn the framework.
+It displays a list of movies which I grabbed randomly from IMDb.
 
-## Getting Started
+## Screenshots
 
-For help getting started with Flutter, view our online
-[documentation](http://flutter.io/).
+![Screenshot 1](https://i.imgur.com/SmVPpds.png "Screenshot 1")
+![Screenshot 2](https://i.imgur.com/quAc5TD.png "Screenshot 2")
+![Screenshot 3](https://i.imgur.com/MGBbn2j.png "Screenshot 3")
